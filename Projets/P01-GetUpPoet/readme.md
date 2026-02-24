@@ -79,10 +79,10 @@ string source =
 ```
 ### En ASM8086 :
 ```assembly
-source db "Je garde un espoir simple.",0Dh,0Ah
-       db "Dans un geste discret.",0Dh,0Ah
+source db "je garde un espoir simple.",0Dh,0Ah
+       db "dans un geste discret.",0Dh,0Ah
        [...]
-       db "Et je crois que demain peut etre meilleur.$"
+       db "et je crois que demain peut etre meilleur.$"
 ```
 
 > ATTENTION : `\0` représente le caractère de fin de chaîne en C++.  Il est équivalent au caractère `$` en ASM8086.
