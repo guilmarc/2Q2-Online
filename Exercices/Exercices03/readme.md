@@ -8,13 +8,24 @@
 ## ↩ Question 01 - Reverso 
 Robert voit toujours tout à l'envers, aidez-le à voir ces phrases du bon côté en les inversants :
 
-```cpp
-string message = "!sretniop sel resilitu'd elitu siofrap tse lI$";
-string message = "!!!OG ...1,2,3,4,5 snad tnednetne ednom el tuot euq ruop oloP ocraM iom-zeleppA$"
-string message = "$"
-``` 
+### Phrase 1
+```plaintext
+!sretniop sel resilitu'd elitu siofrap tse lI
+```
 
-> Programmez un seul algorithme qui fonctionnera avec les 3 phrases.  Placez-les en commentaires et décommentez la phrase à tester, simplement !
+### Phrase 2
+```plaintext
+!!!OG ...1,2,3,4,5 snad tnednetne ednom el tuot euq ruop oloP ocraM iom-zeleppA
+```
+
+### Phrase 3
+```plaintext
+[VIDE]
+```
+
+Programmez un seul algorithme qui fonctionnera avec les 3 phrases.  Placez-les en commentaires et décommentez la phrase à tester, simplement !
+
+> ASTUCE: Ajoutez un caractère de fin de ligne à la fin des chaînes de caractères `\0` pour C++ et `$` pour ASM8086.
 
 > ATTENTION: Le #3 devait simplement rien afficher à l'écran.
 
