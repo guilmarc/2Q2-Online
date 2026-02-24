@@ -63,7 +63,8 @@ Et je crois que demain peut être meilleur.
 > RAPPELS : 
 > 1. `string` est l'équivalent de `char[]`.
 > 2. Un `boolean` est souvent utilisé afin de mémoriser si une action doit être exécutée, exemple (`hasToGetUp`).
-> 3. Avoir du plaisir à transcoder cotre *pseudocode* c++ en assembleur n'est pas défendu !
+> 3. Le caractère de fin de chaîne en c++ est le `\0` et en ASM8086, le `$`.
+> 4. Avoir du plaisir à transcoder cotre *pseudocode* c++ en assembleur n'est pas défendu !
 
 
 
@@ -72,19 +73,46 @@ Et je crois que demain peut être meilleur.
 ### En C++ :
 ```cpp
 string source =
-  "je garde un espoir simple.\n"
-  "dans un geste discret.\n"
-  [...]
-  "et je crois que demain peut être meilleur.\0";
-```
-### En ASM8086 :
-```assembly
-source db "je garde un espoir simple.",0Dh,0Ah
-       db "dans un geste discret.",0Dh,0Ah
-       [...]
-       db "et je crois que demain peut être meilleur.$"
+    "je garde un espoir simple.\n"
+    "dans un geste discret.\n"
+    "une main tendue.\n"
+    "un sourire sans raison.\n"
+    "\n"
+    "je vois des gens qui réparent.\n"
+    "qui s’excusent.\n"
+    "qui apprennent.\n"
+    "qui se relèvent après l’erreur.\n"
+    "et qui choisissent encore la bonté.\n"
+    "\n"
+    "l’humanité vacille parfois.\n"
+    "mais elle avance.\n"
+    "a petits pas.\n"
+    "avec du courage ordinaire.\n"
+    "et je crois que demain peut être meilleur.\0";
 ```
 
-> ATTENTION : `\0` représente le caractère de fin de chaîne en C++.  Il est équivalent au caractère `$` en ASM8086.
+### En ASM8086 :
+```assembly
+source db "je garde un espoir simple.", 0Ah, 0Dh
+       db "dans un geste discret.", 0Ah, 0Dh
+       db "une main tendue.", 0Ah, 0Dh
+       db "un sourire sans raison.", 0Ah, 0Dh
+       db 0Ah, 0Dh
+       db "je vois des gens qui réparent.", 0Ah, 0Dh
+       db "qui s'excusent.", 0Ah, 0Dh
+       db "qui apprennent.", 0Ah, 0Dh
+       db "qui se relèvent après l'erreur.", 0Ah, 0Dh
+       db "et qui choisissent encore la bonté.", 0Ah, 0Dh
+       db 0Ah, 0Dh
+       db "l'humanité vacille parfois.", 0Ah, 0Dh
+       db "mais elle avance.", 0Ah, 0Dh
+       db "a petits pas.", 0Ah, 0Dh
+       db "avec du courage ordinaire.", 0Ah, 0Dh
+       db "et je crois que demain peut être meilleur.", "$"
+```
+ 
+# 🃏 Les Jockers 🃏
+
+Il vous sera permis de vous faire **deboguer** deux fois lors de la réalisation de cet exercice, un **jocker** pour le projet en C++ et un autre pour le code ASM8086.  Comme vous disposez seulement d'un seul **joker** par section, assurez-vous d'avoir utilisé le débogueur par vous-même avant de l'utiliser 😉.  
 
 <hr><p align="Center"><img src="../../includes/end.png" alt="drawing" width="150"/></p>
