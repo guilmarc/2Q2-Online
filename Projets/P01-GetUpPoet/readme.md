@@ -82,7 +82,7 @@ string source =
 source db "je garde un espoir simple.",0Dh,0Ah
        db "dans un geste discret.",0Dh,0Ah
        [...]
-       db "et je crois que demain peut etre meilleur.$"
+       db "et je crois que demain peut être meilleur.$"
 ```
 
 > ATTENTION : `\0` représente le caractère de fin de chaîne en C++.  Il est équivalent au caractère `$` en ASM8086.
