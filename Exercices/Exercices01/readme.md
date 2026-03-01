@@ -3,7 +3,7 @@
 
 # Exercices 01 - Introduction
 
-#### 📁 [Structures de projets & consignes à suivre](../includes/rules.md)
+#### 📁 [Structures de projets & consignes à suivre](../../includes/rules.md)
 
 ## 7️⃣ Question 01 - Le 7 chanceux
 

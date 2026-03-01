@@ -3,7 +3,7 @@
 
 # Exercices 02 - Boucles & cie.
 
-#### 📁 [Structures de projets & consignes à suivre](../includes/rules.md)
+#### 📁 [Structures de projets & consignes à suivre](../../includes/rules.md)
 
 ## 4️⃣ Question 01 - ASCII
 

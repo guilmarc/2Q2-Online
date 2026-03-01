@@ -3,7 +3,7 @@
 
 # Exercices 03 - Chaînes de caractères
 
-#### 📁 [Structures de projets & consignes à suivre](../includes/rules.md)
+#### 📁 [Structures de projets & consignes à suivre](../../includes/rules.md)
 
 ## ↩ Question 01 - Reverso 
 Robert voit toujours tout à l'envers, aidez-le à voir ces phrases du bon côté en les inversants :
