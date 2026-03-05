@@ -38,22 +38,23 @@ Programmez un seul algorithme qui fonctionnera avec les 3 phrases. Placez-les en
 Par mesure de sécurité, des données confidentielles ont été séparée, caractère par caractère, dans des variables différentes. Utilisez le principe du zipper afin de recréer l'information correctement en **mémoire** et affichez ensuite ce résultat à l'écran. Voici les données :
 
 #### 🔒 Code secret 01
+
 1. `J uscpbed esi ecus`;
 2. `esi aal erusrc or!`;
 
-> ⚠️ Un zipper est une fermeture éclair.  Le principe est de prendre une *dent* d'un premier côté et ensuite une autre d'un autre côté et ainsi de suite afin de refermer le tout.  Dans notre situation, le résultat sera une variable contenant le texte décodé.
-
-
+> ⚠️ Un zipper est une fermeture éclair. Le principe est de prendre une _dent_ d'un premier côté et ensuite une autre d'un autre côté et ainsi de suite afin de refermer le tout. Dans notre situation, le résultat sera une variable contenant le texte décodé.
 
 ### 2.2 🤐🤐🤐 DÉFI: Heavy Duty Zipper
 
 En guise d'enrichissement personnel volontaire, assurez-vous que votre algorithme soit suffisament robuste afin de fonctionner avec ce message encodé :
+
 #### 🔒 Code secret 02
+
 1. `Mncd eberbse`;
 2. `o oesml out`;
 
-> ❓ Devez-vous faire un chargement à l'algorithme initial afin que cela fonctionne ?  Si oui, assurez-vous que votre nouvel algorithme ne *brise* pas le décodage du code secret 01.
-  
+> ❓ Devez-vous faire un chargement à l'algorithme initial afin que cela fonctionne ? Si oui, assurez-vous que votre nouvel algorithme ne _brise_ pas le décodage du code secret 01.
+
 > 💡 Dans le monde du développement, nous appelons cela des **test de régression**.
 
 > ⚠️ Cet algorithme ne sera pas présent dans le solutionnaire. Présentez individuellement votre solution à l'enseignant sur une base volontaire afin de discuter de votre solution.
@@ -61,6 +62,8 @@ En guise d'enrichissement personnel volontaire, assurez-vous que votre algorithm
 ## 🔐 Question 03 - SKU Generator
 
 Vous avez obtenu un contrat de programmation. Vous devez créer un générateur de code de produits (SKU) composé d'un nombre variable de **chiffres**.
+
+##### Affichage requis:
 
 ```plaintext
 Quelle est la taille du code que tu souhaite générer [0 à 9] ? 8
@@ -75,6 +78,7 @@ Code généré: 837548
 ```plaintext
 Quelle est la taille du code que tu souhaite générer [0 à 9] ? 0
 ```
+
 > ⚠️ Afin de simplifier cette solution, nous présumerons que l'utilisateur entrera toujours un chiffre entre 0 et 9.
 
 <hr><p align="Center"><img src="../../includes/end.png" alt="drawing" width="150"/></p>

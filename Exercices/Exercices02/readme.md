@@ -9,7 +9,7 @@
 
 Créer deux variables x=5 et y=9. Calculer la différence entre y et x et affichez la réponse à l'écran.
 
-#### Affichage requis:
+##### Affichage requis:
 
 ```plaintext
 4
@@ -34,7 +34,7 @@ if(note >= seuil) {
 cout << "!";
 ```
 
-#### Affichage requis:
+##### Affichage requis:
 
 ```plaintext
 Vous avez avez obtenu un succes!
@@ -50,7 +50,7 @@ Vous avez avez obtenu un echec!
 
 > 🚫 Interdit d'utiliser la fonction d'affichage de chaîne de caractères (09h).
 
-#### Affichage requis:
+##### Affichage requis:
 
 ```plaintext
 AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
@@ -61,6 +61,8 @@ AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
 ## 🚀 Question 04 - Rocketer
 
 Programmez une simulation de lancement de fusée.
+
+###### Affichage requis:
 
 ```plaintext
 9
@@ -80,6 +82,8 @@ DÉCOLLAGE!!!
 ## 🎨 Question 05 - Pablo Picasso del Shawinigan
 
 Recréez ce dessin à l'écran :
+
+###### Affichage requis:
 
 ```plaintext
 **********
