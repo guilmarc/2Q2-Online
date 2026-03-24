@@ -7,7 +7,9 @@
 
 ## 🚀 Question 01 - La NASA
 
-La NASA vous a octroyé un contrat de programmation pour une procédure d'affichage du décompte pré-lancement d'une fusée, nommée **display**. Cette procédure doit afficher `Attention: X`, où X est le chiffre passé en paramètre (numérique). La procédure affichera `Décollage !!!` lorsque le chiffre passé en paramètre sera égal à zéro (`0`).
+La NASA vous a octroyé un contrat de programmation pour une procédure d'affichage du décompte pré-lancement d'une fusée, nommée `display`. Cette procédure doit afficher `Attention: X`, où X est le chiffre passé en paramètre (numérique). La procédure affichera `Décollage !!!` lorsque le chiffre passé en paramètre sera égal à zéro (`0`).
+
+La procédure `countdown` fera une boucle en passant à la fonction `display` la valeur de 9 à 0.
 
 ### Affichage attendu :
 ```plaintext
